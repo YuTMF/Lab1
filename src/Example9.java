@@ -14,7 +14,7 @@ public class Example9 {
         System.out.print("Введите возраст: ");
         int age = in.nextInt();
 
-        System.out.printf("Имя: %s \nВозраст: %d \nРост:  %.2f \n", name, age);
+        System.out.printf("Имя: %s \nВозраст: %d", name, age);
         in.close();
 
     }
