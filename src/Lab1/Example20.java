@@ -1,3 +1,5 @@
+package Lab1;
+
 public class Example20 {
     /*TODO: 13. Сделайте вариант вычисление a^b
         с помощью встроенного метода (искать в Math).
