@@ -30,7 +30,7 @@ public class example09_02 {
         if (resRule1 != resRule2)
             System.out.println(PARTLY_RIGHT_RESULT);
         else
-            if (resRule1 == false)
+            if (!resRule1)
                 System.out.println(FALSE_RESULT);
             else
                 System.out.println(ALL_RIGHT_RESULT);
