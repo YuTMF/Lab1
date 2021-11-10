@@ -1,3 +1,5 @@
+package Lab1;
+
 import java.text.Format;
 
 public class example2 {
