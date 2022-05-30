@@ -30,7 +30,7 @@ public class example09_09 {
             System.out.print(nums[i] +"\t");
         }
         var minElement = Collections.min(Arrays.stream(nums).boxed().collect(Collectors.toList()));
-        System.out.println("\nMin: " + minElement);
+        System.out.println("\nМинимальное значение: " + minElement);
 
         for(i = 0; i < nums.length; ++i) {
             if (nums[i] == minElement)
